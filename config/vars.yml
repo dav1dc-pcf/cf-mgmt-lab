@@ -25,4 +25,4 @@ ldap_server: "ldap.home.pvt"
 ldap_user: ""
 
 # password to bind to ldap - only needed if using LDAP
-ldap_password: ((ldap_server_admin_password))
+ldap_password: ((ldap_admin_password))
