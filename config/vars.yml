@@ -1,5 +1,5 @@
 # your git repo uri
-git_repo_uri: "git@github.com:dav1dc-pcf/cf-mgmt-lab.git"
+git_repo_uri: "https://github.com/dav1dc-pcf/cf-mgmt-lab.git"
 git_repo_branch: master
 # your cf system domain
 system_domain: "sys.pcf.home.pvt"
