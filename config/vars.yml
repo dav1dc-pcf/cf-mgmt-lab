@@ -1,14 +1,14 @@
 # your git repo uri
-git_repo_uri: ""
+git_repo_uri: "git@github.com:dav1dc-pcf/cf-mgmt-lab.git"
 git_repo_branch: master
 # your cf system domain
-system_domain: ""
+system_domain: "sys.pcf.home.pvt"
 # user account with permission to create orgs/spaces
-user_id: ""
+user_id: "admin"
 # DEPRECATED - Use client_secret - password of user account with permission to create orgs/spaces
 password: ""
 # client secret for uaa for user_id
-client_secret: ""
+client_secret: ((pcf_admin_client_secret))
 
 # logging level for cf-mgmt commands in the pipeline
 log_level: INFO
@@ -19,10 +19,10 @@ time-trigger: 15m
 config_dir: config
 
 # allow specifying ldap server in pipeline vs in ldap.yml only needed if using LDAP
-ldap_server: ""
+ldap_server: "ldap.home.pvt"
 
 # allow specifying ldap bind user in pipeline vs in ldap.yml only needed if using LDAP
 ldap_user: ""
 
 # password to bind to ldap - only needed if using LDAP
-ldap_password: ""
+ldap_password: ((ldap_server_admin_password))
