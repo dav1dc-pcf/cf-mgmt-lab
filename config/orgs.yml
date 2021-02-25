@@ -1,5 +1,6 @@
 orgs:
 - testing
+- managed-org
 enable-delete-orgs: false
 protected_orgs:
 - ^system$

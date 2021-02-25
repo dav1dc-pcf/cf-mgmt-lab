@@ -1,0 +1,4 @@
+org: managed-org
+spaces:
+- managed-space
+enable-delete-spaces: true
